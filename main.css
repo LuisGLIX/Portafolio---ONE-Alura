@@ -1,0 +1,37 @@
+@import url("./styles/header.css");
+@import url("./styles/profile.css");
+@import url("./styles/about.css");
+@import url("./styles/skills.css");
+@import url("./styles/hobbies.css");
+@import url("./styles/education.css");
+@import url("./styles/experience.css");
+@import url("./styles/contact.css");
+@import url("./styles/footer.css");
+
+:root{
+   --cor-de-fundo: #EDEDED;
+   --cor-de-link: #464646;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* WebKit (Safari, Chrome) */
+}
+
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}

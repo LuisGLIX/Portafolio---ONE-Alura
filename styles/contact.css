@@ -1,0 +1,144 @@
+.formcontato {
+    padding: 50px 20px;
+    background-color: #eaf2fd;
+    text-align: center
+}
+
+.formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf2fd;
+    gap: 20px
+}
+
+.formcontato__img {
+    width: 464px;
+    height: 593px;
+    border-radius: 8px
+}
+
+.formcontato__text {
+    width: 50%;
+    padding: 20px
+}
+
+.formcontato__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px
+}
+
+.formcontato__subtext {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 10px
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px
+}
+
+.formcontato__botao {
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .3s ease;
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.formcontato__botao:hover {
+    background-color: #0056b3
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+.mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
+    color: red
+}
+
+.formcontato__input--error {
+    border: 2px solid red
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .formcontato__contacto {
+        flex-direction: column;
+        text-align: center
+    }
+
+    .formcontato__img {
+        display: none
+    }
+
+    .formcontato__text {
+        width: 100%;
+        padding: 20px
+    }
+
+    .formcontato__form {
+        align-items: center
+    }
+
+    .formcontato__input,
+    .formcontato__textarea {
+        width: 100%
+    }
+
+    .formcontato__botao {
+        font-size: 16px;
+        padding: 12px 24px
+    }
+}
+
+@media (min-width:425px) and (max-width:767px) {
+    .formcontato__contacto {
+        flex-direction: column;
+        text-align: center
+    }
+
+    .formcontato__img {
+        display: none
+    }
+
+    .formcontato__text {
+        width: 100%;
+        padding: 20px
+    }
+
+    .formcontato__form {
+        align-items: center
+    }
+
+    .formcontato__input,
+    .formcontato__textarea {
+        width: 100%
+    }
+}

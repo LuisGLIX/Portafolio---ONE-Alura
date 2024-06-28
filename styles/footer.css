@@ -1,0 +1,16 @@
+.footer {
+    background-color: #fff;
+    padding: 20px
+}
+
+.footer__rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.footer__rodape p {
+    font-size: 16px;
+    font-weight: medium;
+    color: #464646
+}
